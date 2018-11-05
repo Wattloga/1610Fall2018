@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: New Value Change
+  m_Name: UpdateHealt
   m_EditorClassIdentifier: Assembly-CSharp::ValueChange
-  Data: {fileID: 0}
+  Data: {fileID: 11400000, guid: 96849a8755c8946608106fda47503203, type: 2}
