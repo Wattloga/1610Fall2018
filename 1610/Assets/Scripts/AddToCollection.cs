@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class AddToCollection : ScriptableObject
+public class ValueChange: ScriptableObject
 {
 
-	public ObjectCollection Collection;
-	
-	
-	public void Call(ScriptableObject obj)
+	public FloatData Data;
+
+	public void AddValue(FloatData data)
 	{
-		Collection.ObjectList.Add(obj);
-	} 
-	
+		data.Value += Data.Value;
+	}
+
+	public void SubtractValue(FloatData data)
+	{
+		data.Value -= Data.Value;
+	}
 }
 
