@@ -7,12 +7,12 @@ public class ChangeValue : ScriptableObject
 
 	public FloatData Data;
 
-	public void AddValue(FloatData obj)
+	public void AddValue (FloatData obj)
 	{
 		Data.Value += obj.Value;
 	}
 	
-	public void SubtractValue(FloatData obj)
+	public void SubtractValue (FloatData obj)
 	{
 		Data.Value -= obj.Value;
 	}
