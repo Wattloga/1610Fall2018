@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: UpdateHealth
   m_EditorClassIdentifier: Assembly-CSharp::ValueChange
-  Data: {fileID: 0}
+  Data: {fileID: 11400000, guid: 58cea7c979804464eae7a7edb704b6a4, type: 2}
