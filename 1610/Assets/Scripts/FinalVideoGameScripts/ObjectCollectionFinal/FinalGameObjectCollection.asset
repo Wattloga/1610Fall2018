@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd58e2d925ae4bcbaba67c37859742b, type: 3}
   m_Name: FinalGameObjectCollection
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 2eb63942fbabf4b2b9463b32a5bb4d1c, type: 2}
