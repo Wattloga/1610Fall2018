@@ -6,10 +6,11 @@ public class PlayerColliding : MonoBehaviour
 {
 
     public CharacterMover Mover;
+    public GameControl gameControl;
     
     //public Vector3 velocity;
 
-    private void OnCollisionEnter(Collision col)
+    private void OnCollisionEnter (Collision col)
     {
         Debug.Log(gameObject.name + "has collided with" + col.gameObject.name);
         Mover.enabled = false;
